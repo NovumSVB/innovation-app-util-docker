@@ -1,0 +1,1 @@
+CREATE DATABASE novum_app;
