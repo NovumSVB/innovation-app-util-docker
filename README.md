@@ -1,7 +1,7 @@
 # Docker installer
 <p align="center"><img src="https://gitlab.com/NovumGit/innovation-app-core/-/raw/master/assets/novum.png"  alt="Novum logo"/></p>
 
-##What is this?
+## What is this?
 
 This package contains the optional Docker containers that you can use to spin up one  of the samp apps or create a new
 api / system.
@@ -19,7 +19,7 @@ You need a git client, docker-compose and docker installed.
 ```docker-compose up```
 
 
-###What will happen?
+### What will happen?
 Two containers will be launched, one is a database server (mariadb) and the other a webserver (Apache). The webserver
 actually also contains the php executable and composer, the packagemanager for php. It runs the composer update command
 which will in turn download the most recent version of all the sourcecode. The sourcecode comes with a composer plugin
