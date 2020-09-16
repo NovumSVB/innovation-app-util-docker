@@ -9,9 +9,6 @@
     ],
     "require": {
         "hurah/hurah-installer": "dev-master",
-        "novum/api-gemeente": "dev-master",
-        "novum/api-belastingdienst": "dev-master",
-        "hurah/innovation-app-util-http": "dev-master",
-        "novum/site-belastingdienst": "dev-master"
+        "hurah/innovation-app-util-http": "dev-master"
     }
 }
