@@ -1,0 +1,17 @@
+{
+    "name": "anton/test-svb",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Anton Boutkam",
+            "email": "anton@nui-boutkam.nl"
+        }
+    ],
+    "require": {
+        "hurah/hurah-installer": "dev-master",
+        "novum/api-gemeente": "dev-master",
+        "novum/api-belastingdienst": "dev-master",
+        "hurah/innovation-app-util-http": "dev-master",
+        "novum/site-belastingdienst": "dev-master"
+    }
+}

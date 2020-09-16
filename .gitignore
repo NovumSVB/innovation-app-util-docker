@@ -1,1 +1,6 @@
 .idea
+.system
+vendor/
+assets/
+public/
+domain/
