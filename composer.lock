@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "845278ac01bff3e17dc7ef49e3cdc2e4",
+    "content-hash": "60da1ee484dda7f8f57bbae9dd3fb014",
     "packages": [
         {
             "name": "bluerhinos/phpmqtt",
@@ -1117,24 +1117,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "bbf3b200bc83c1e9298580a9f99b9be248543467"
+                "reference": "8d7c8fb942cb9856b7b5c98e68e9c34d56e806a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/bbf3b200bc83c1e9298580a9f99b9be248543467",
-                "reference": "bbf3b200bc83c1e9298580a9f99b9be248543467",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/8d7c8fb942cb9856b7b5c98e68e9c34d56e806a9",
+                "reference": "8d7c8fb942cb9856b7b5c98e68e9c34d56e806a9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^7.5"
+                "symfony/phpunit-bridge": "^4.4 || ^5.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -1160,7 +1160,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2020-06-21T23:10:57+00:00"
+            "time": "2020-09-21T06:06:31+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1168,12 +1168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "188cc82398f157483976ccf61bd04ee80afcf29c"
+                "reference": "b2007a51b06f899b278be4d1b31593831c1be65f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/188cc82398f157483976ccf61bd04ee80afcf29c",
-                "reference": "188cc82398f157483976ccf61bd04ee80afcf29c",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/b2007a51b06f899b278be4d1b31593831c1be65f",
+                "reference": "b2007a51b06f899b278be4d1b31593831c1be65f",
                 "shasum": ""
             },
             "require": {
@@ -1186,7 +1186,7 @@
             },
             "require-dev": {
                 "ext-zlib": "*",
-                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
             },
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
@@ -1194,7 +1194,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -1231,7 +1231,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2020-05-17T20:05:25+00:00"
+            "time": "2020-09-23T20:12:44+00:00"
         },
         {
             "name": "hurah/hurah-installer",
@@ -1239,12 +1239,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonboutkam/hurah-installer.git",
-                "reference": "35844a8cd940ac385f8b38880d3406f823bc3883"
+                "reference": "828edec58a1e2d611f346db9a408eafaca859abb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonboutkam/hurah-installer/zipball/35844a8cd940ac385f8b38880d3406f823bc3883",
-                "reference": "35844a8cd940ac385f8b38880d3406f823bc3883",
+                "url": "https://api.github.com/repos/antonboutkam/hurah-installer/zipball/828edec58a1e2d611f346db9a408eafaca859abb",
+                "reference": "828edec58a1e2d611f346db9a408eafaca859abb",
                 "shasum": ""
             },
             "require": {
@@ -1270,7 +1270,49 @@
                 "MIT"
             ],
             "description": "Installer scripts for Hurah!",
-            "time": "2020-09-12T21:33:44+00:00"
+            "time": "2020-09-18T10:54:27+00:00"
+        },
+        {
+            "name": "hurah/innovation-app-cli-utils",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antonboutkam/hurah-cli-utils.git",
+                "reference": "6a6744fb067fb7a40f96a80a56856cdf62f43c94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antonboutkam/hurah-cli-utils/zipball/6a6744fb067fb7a40f96a80a56856cdf62f43c94",
+                "reference": "6a6744fb067fb7a40f96a80a56856cdf62f43c94",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1",
+                "composer/composer": "1.10.*",
+                "hurah/hurah-installer": "*",
+                "symfony/console": "5.2.*.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "HurahCli\\Entrypoint"
+            },
+            "autoload": {
+                "psr-4": {
+                    "HurahCli\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "antonboutkam",
+                    "email": "anton@nui-boutkam.nl"
+                }
+            ],
+            "description": "Commandline utilities for Hurah and Novum Innovation app",
+            "time": "2020-09-21T08:17:52+00:00"
         },
         {
             "name": "hurah/innovation-app-util-http",
@@ -1421,12 +1463,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "0edb562707c032156516fe94d27d0f685032573f"
+                "reference": "8390baf88ec443f7473b2adf0a45353792793136"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/0edb562707c032156516fe94d27d0f685032573f",
-                "reference": "0edb562707c032156516fe94d27d0f685032573f",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/8390baf88ec443f7473b2adf0a45353792793136",
+                "reference": "8390baf88ec443f7473b2adf0a45353792793136",
                 "shasum": ""
             },
             "require": {
@@ -1437,7 +1479,7 @@
                 "php": "^7.2"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^5.0",
+                "doctrine/coding-standard": "^8.1",
                 "doctrine/orm": "~2.1",
                 "doctrine/persistence": "^1.3.3|^2.0|^3.0",
                 "doctrine/phpcr-odm": "^1.3|^2.0",
@@ -1500,7 +1542,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-12T10:25:15+00:00"
+            "time": "2020-09-17T10:11:11+00:00"
         },
         {
             "name": "jurosh/pdf-merge",
@@ -1907,12 +1949,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "960bc900bd8a97d89feb8cbd1ae332e34a8adac3"
+                "reference": "dbd20461fd3f43bd79b2c722daf8843792b64b71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/960bc900bd8a97d89feb8cbd1ae332e34a8adac3",
-                "reference": "960bc900bd8a97d89feb8cbd1ae332e34a8adac3",
+                "url": "https://api.github.com/repos/nette/utils/zipball/dbd20461fd3f43bd79b2c722daf8843792b64b71",
+                "reference": "dbd20461fd3f43bd79b2c722daf8843792b64b71",
                 "shasum": ""
             },
             "require": {
@@ -1977,184 +2019,20 @@
                 "utility",
                 "validation"
             ],
-            "time": "2020-09-03T15:21:08+00:00"
+            "time": "2020-09-15T13:23:53+00:00"
         },
         {
-            "name": "novum/api-belastingdienst",
+            "name": "novum/domain-svb",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-belastingdienst-api.git",
-                "reference": "e3295d2852d158783ca2f765ec5f080bb71fed81"
+                "url": "https://gitlab.com/NovumGit/innovation-app-svb-domain.git",
+                "reference": "3042693affce9604686f0072acd3cf998086bb6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-belastingdienst-api/repository/archive.zip?sha=e3295d2852d158783ca2f765ec5f080bb71fed81",
-                "reference": "e3295d2852d158783ca2f765ec5f080bb71fed81",
-                "shasum": ""
-            },
-            "require": {
-                "hurah/hurah-installer": "*",
-                "novum/domain-bri": "dev-master",
-                "novum/innovation-app-core": "*",
-                "php": ">=7.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9.3.7"
-            },
-            "type": "novum-api",
-            "extra": {
-                "install_dir": "api.belastingdienst.demo.novum.nu"
-            },
-            "autoload": {
-                "psr-4": {
-                    "ApiNovumBri\\": "modules"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anton Boutkam",
-                    "email": "anton@novum.nu"
-                },
-                {
-                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
-                    "email": "info@novum.nu"
-                }
-            ],
-            "description": "A fictional API of the dutch Belastingdienst",
-            "homepage": "https://innovatie.app.demo.novum.nu",
-            "keywords": [
-                "api",
-                "innovatie lab",
-                "nlx",
-                "novum"
-            ],
-            "time": "2020-08-28T10:57:57+00:00"
-        },
-        {
-            "name": "novum/api-gemeente",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-gemeente-api.git",
-                "reference": "8dbc824851e03b9ca829dcd46fc7f594f42688be"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-gemeente-api/repository/archive.zip?sha=8dbc824851e03b9ca829dcd46fc7f594f42688be",
-                "reference": "8dbc824851e03b9ca829dcd46fc7f594f42688be",
-                "shasum": ""
-            },
-            "require": {
-                "hurah/hurah-installer": "*",
-                "novum/domain-brp": "dev-master",
-                "novum/innovation-app-core": "*",
-                "php": ">=7.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9.3.7"
-            },
-            "type": "novum-api",
-            "extra": {
-                "install_dir": "api.gemeente.demo.novum.nu"
-            },
-            "autoload": {
-                "psr-4": {
-                    "ApiNovumBrp\\": "modules"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anton Boutkam",
-                    "email": "anton@novum.nu"
-                },
-                {
-                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
-                    "email": "info@novum.nu"
-                }
-            ],
-            "description": "A fictional API of the dutch Basisregistratie persoonsgegevens",
-            "homepage": "https://innovatie.app.demo.novum.nu",
-            "keywords": [
-                "api",
-                "innovatie lab",
-                "nlx",
-                "novum"
-            ],
-            "time": "2020-08-28T10:58:12+00:00"
-        },
-        {
-            "name": "novum/domain-bri",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-bri-domain.git",
-                "reference": "fe11cac2fed5b5b1c9f79ade5dc96a8d4f64c880"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-bri-domain/repository/archive.zip?sha=fe11cac2fed5b5b1c9f79ade5dc96a8d4f64c880",
-                "reference": "fe11cac2fed5b5b1c9f79ade5dc96a8d4f64c880",
-                "shasum": ""
-            },
-            "require": {
-                "hurah/hurah-installer": "*",
-                "novum/innovation-app-core": "*",
-                "php": ">=7.3"
-            },
-            "type": "novum-domain",
-            "autoload": {
-                "psr-4": {
-                    "Core\\": "classes/Core",
-                    "Crud\\": "classes/Crud",
-                    "Model\\": "classes/Model",
-                    "AdminModules\\": "admin_modules"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anton Boutkam",
-                    "email": "anton@novum.nu"
-                },
-                {
-                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
-                    "email": "info@novum.nu"
-                }
-            ],
-            "description": "Fake \"Belastingdienst\" domain definition files",
-            "homepage": "https://innovatie.app.demo.novum.nu",
-            "keywords": [
-                "api",
-                "innovatie lab",
-                "nlx",
-                "novum"
-            ],
-            "time": "2020-09-12T21:15:03+00:00"
-        },
-        {
-            "name": "novum/domain-brp",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-brp-domain.git",
-                "reference": "aad276ca50794ed2526ce5a2074752dcb4081e6a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-brp-domain/repository/archive.zip?sha=aad276ca50794ed2526ce5a2074752dcb4081e6a",
-                "reference": "aad276ca50794ed2526ce5a2074752dcb4081e6a",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-svb-domain/repository/archive.zip?sha=3042693affce9604686f0072acd3cf998086bb6d",
+                "reference": "3042693affce9604686f0072acd3cf998086bb6d",
                 "shasum": ""
             },
             "require": {
@@ -2177,7 +2055,7 @@
                     "email": "info@novum.nu"
                 }
             ],
-            "description": "Fake \"Basisregistratie persoonsgegevens\" domain definition files",
+            "description": "Fake \"de Sociale verzekeringsbank (SVB)\" domain definition files",
             "homepage": "https://innovatie.app.demo.novum.nu",
             "keywords": [
                 "api",
@@ -2185,7 +2063,7 @@
                 "nlx",
                 "novum"
             ],
-            "time": "2020-09-12T21:15:00+00:00"
+            "time": "2020-09-12T21:15:17+00:00"
         },
         {
             "name": "novum/innovation-app-core",
@@ -2268,62 +2146,6 @@
                 "MIT"
             ],
             "time": "2020-09-12T20:28:33+00:00"
-        },
-        {
-            "name": "novum/site-belastingdienst",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-belastingdienst-website.git",
-                "reference": "742f32ce3aa7cd3038d31bba61ba60e63bccbeb1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-belastingdienst-website/repository/archive.zip?sha=742f32ce3aa7cd3038d31bba61ba60e63bccbeb1",
-                "reference": "742f32ce3aa7cd3038d31bba61ba60e63bccbeb1",
-                "shasum": ""
-            },
-            "require": {
-                "hurah/hurah-installer": "*",
-                "novum/domain-bri": "dev-master",
-                "novum/innovation-app-core": "*",
-                "php": ">=7.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9.3.7"
-            },
-            "type": "novum-site",
-            "extra": {
-                "install_dir": "belastingdienst.demo.novum.nu"
-            },
-            "autoload": {
-                "psr-4": {
-                    "NovumBri\\": "modules"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anton Boutkam",
-                    "email": "anton@novum.nu"
-                },
-                {
-                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
-                    "email": "info@novum.nu"
-                }
-            ],
-            "description": "A fake website that represents Belastingdienst.",
-            "homepage": "https://innovatie.app.demo.novum.nu",
-            "keywords": [
-                "innovatie lab",
-                "nlx",
-                "novum",
-                "website"
-            ],
-            "time": "2020-08-28T10:57:53+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -2803,12 +2625,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/propelorm/Propel2.git",
-                "reference": "a7939673bc29df0400ab09074517931b700165ff"
+                "reference": "3087361bd27f3598f3ecd70e9fd272a5c2575b88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/propelorm/Propel2/zipball/a7939673bc29df0400ab09074517931b700165ff",
-                "reference": "a7939673bc29df0400ab09074517931b700165ff",
+                "url": "https://api.github.com/repos/propelorm/Propel2/zipball/3087361bd27f3598f3ecd70e9fd272a5c2575b88",
+                "reference": "3087361bd27f3598f3ecd70e9fd272a5c2575b88",
                 "shasum": ""
             },
             "require": {
@@ -2828,7 +2650,7 @@
                 "monolog/monolog": "^1.3",
                 "phpstan/phpstan": "^0.12.4",
                 "phpunit/phpunit": "^7.5.15",
-                "spryker/code-sniffer": "^0.15.4"
+                "spryker/code-sniffer": "^0.15.6"
             },
             "suggest": {
                 "monolog/monolog": "The recommended logging library to use with Propel."
@@ -2864,7 +2686,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2020-09-10T08:46:46+00:00"
+            "time": "2020-09-14T08:34:34+00:00"
         },
         {
             "name": "psr/cache",
@@ -2918,12 +2740,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "fc1bc363ecf887921e3897c7b1dad3587ae154eb"
+                "reference": "b1fbdff230c2fae8b3e600ead18e711563f05a04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/fc1bc363ecf887921e3897c7b1dad3587ae154eb",
-                "reference": "fc1bc363ecf887921e3897c7b1dad3587ae154eb",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b1fbdff230c2fae8b3e600ead18e711563f05a04",
+                "reference": "b1fbdff230c2fae8b3e600ead18e711563f05a04",
                 "shasum": ""
             },
             "require": {
@@ -2947,7 +2769,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common Container Interface (PHP FIG PSR-11)",
@@ -2959,7 +2781,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2019-10-04T14:07:35+00:00"
+            "time": "2020-09-18T06:44:01+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3017,12 +2839,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
-                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/dd738d0b4491f32725492cf345f6b501f5922fec",
+                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec",
                 "shasum": ""
             },
             "require": {
@@ -3046,7 +2868,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for logging libraries",
@@ -3056,7 +2878,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2020-03-23T09:12:05+00:00"
+            "time": "2020-09-18T06:44:51+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -3607,12 +3429,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "c67f0765f8d7e400d540c998fc291718bf345b67"
+                "reference": "dc8bda628f4f044182055ddb9d13608ea30c8084"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/c67f0765f8d7e400d540c998fc291718bf345b67",
-                "reference": "c67f0765f8d7e400d540c998fc291718bf345b67",
+                "url": "https://api.github.com/repos/symfony/config/zipball/dc8bda628f4f044182055ddb9d13608ea30c8084",
+                "reference": "dc8bda628f4f044182055ddb9d13608ea30c8084",
                 "shasum": ""
             },
             "require": {
@@ -3679,7 +3501,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-02T16:27:44+00:00"
+            "time": "2020-09-22T09:22:20+00:00"
         },
         {
             "name": "symfony/console",
@@ -3687,12 +3509,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "8f67de03e7a717137a443b438260351d67072210"
+                "reference": "84ec97f7cc87bd2938dceb44ae2b717ef2fbbec2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/8f67de03e7a717137a443b438260351d67072210",
-                "reference": "8f67de03e7a717137a443b438260351d67072210",
+                "url": "https://api.github.com/repos/symfony/console/zipball/84ec97f7cc87bd2938dceb44ae2b717ef2fbbec2",
+                "reference": "84ec97f7cc87bd2938dceb44ae2b717ef2fbbec2",
                 "shasum": ""
             },
             "require": {
@@ -3778,7 +3600,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-09T12:41:49+00:00"
+            "time": "2020-09-20T07:20:17+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -4067,12 +3889,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill.git",
-                "reference": "1c93f786da6e8309434b53d3944a7e00264854c1"
+                "reference": "cb7861f540983579d40e57eac4c7b3789ffcf7eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill/zipball/1c93f786da6e8309434b53d3944a7e00264854c1",
-                "reference": "1c93f786da6e8309434b53d3944a7e00264854c1",
+                "url": "https://api.github.com/repos/symfony/polyfill/zipball/cb7861f540983579d40e57eac4c7b3789ffcf7eb",
+                "reference": "cb7861f540983579d40e57eac4c7b3789ffcf7eb",
                 "shasum": ""
             },
             "require": {
@@ -4183,7 +4005,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-05T08:31:47+00:00"
+            "time": "2020-09-14T11:02:08+00:00"
         },
         {
             "name": "symfony/process",
@@ -4331,12 +4153,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "82a2cb8a1b96d6a8c0d801eaedf0ac7f0281aded"
+                "reference": "0ebd63de9f7e874e428e26cb22de991833f5969f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/82a2cb8a1b96d6a8c0d801eaedf0ac7f0281aded",
-                "reference": "82a2cb8a1b96d6a8c0d801eaedf0ac7f0281aded",
+                "url": "https://api.github.com/repos/symfony/string/zipball/0ebd63de9f7e874e428e26cb22de991833f5969f",
+                "reference": "0ebd63de9f7e874e428e26cb22de991833f5969f",
                 "shasum": ""
             },
             "require": {
@@ -4408,7 +4230,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-11T12:25:32+00:00"
+            "time": "2020-09-17T07:22:48+00:00"
         },
         {
             "name": "symfony/translation",
@@ -4416,12 +4238,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "834997294ad70740a6b376d666fce870e1297d78"
+                "reference": "fe0e1f2c61715d6d6e33bf533ca2db4467307605"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/834997294ad70740a6b376d666fce870e1297d78",
-                "reference": "834997294ad70740a6b376d666fce870e1297d78",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/fe0e1f2c61715d6d6e33bf533ca2db4467307605",
+                "reference": "fe0e1f2c61715d6d6e33bf533ca2db4467307605",
                 "shasum": ""
             },
             "require": {
@@ -4503,7 +4325,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-10T08:35:47+00:00"
+            "time": "2020-09-20T07:20:17+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -4586,12 +4408,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "d3dd63240b4bf284c0b6e490f9894b001274a829"
+                "reference": "fafc2dc45c21a7b87154f76e245a9c912a156f1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/d3dd63240b4bf284c0b6e490f9894b001274a829",
-                "reference": "d3dd63240b4bf284c0b6e490f9894b001274a829",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/fafc2dc45c21a7b87154f76e245a9c912a156f1a",
+                "reference": "fafc2dc45c21a7b87154f76e245a9c912a156f1a",
                 "shasum": ""
             },
             "require": {
@@ -4628,7 +4450,7 @@
                 "symfony/http-kernel": "^4.4|^5.0",
                 "symfony/intl": "^4.4|^5.0",
                 "symfony/mime": "^4.4|^5.0",
-                "symfony/phpunit-bridge": "^5.1",
+                "symfony/phpunit-bridge": "^5.1.1",
                 "symfony/property-access": "^4.4|^5.0",
                 "symfony/property-info": "^4.4|^5.0",
                 "symfony/translation": "^4.4|^5.0",
@@ -4692,7 +4514,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-11T12:25:32+00:00"
+            "time": "2020-09-20T07:20:17+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -4700,12 +4522,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "2e8333393fc986936285d7e5cf6485d14fa6a11f"
+                "reference": "711292b2b8baeb15165c4c0910cdc47d3f1da26e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/2e8333393fc986936285d7e5cf6485d14fa6a11f",
-                "reference": "2e8333393fc986936285d7e5cf6485d14fa6a11f",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/711292b2b8baeb15165c4c0910cdc47d3f1da26e",
+                "reference": "711292b2b8baeb15165c4c0910cdc47d3f1da26e",
                 "shasum": ""
             },
             "require": {
@@ -4769,7 +4591,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-08T14:20:09+00:00"
+            "time": "2020-09-20T07:20:17+00:00"
         },
         {
             "name": "twig/twig",
@@ -5047,10 +4869,9 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "hurah/hurah-installer": 20,
-        "novum/api-gemeente": 20,
-        "novum/api-belastingdienst": 20,
+        "hurah/innovation-app-cli-utils": 20,
         "hurah/innovation-app-util-http": 20,
-        "novum/site-belastingdienst": 20
+        "novum/domain-svb": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
