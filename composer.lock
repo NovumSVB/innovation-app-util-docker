@@ -1239,12 +1239,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonboutkam/hurah-installer.git",
-                "reference": "74b5dfe8e574af1b6b56b08c5ca59b2ed24ced94"
+                "reference": "4c2224e741ff4c3e921713260affe41c2ecd50df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonboutkam/hurah-installer/zipball/74b5dfe8e574af1b6b56b08c5ca59b2ed24ced94",
-                "reference": "74b5dfe8e574af1b6b56b08c5ca59b2ed24ced94",
+                "url": "https://api.github.com/repos/antonboutkam/hurah-installer/zipball/4c2224e741ff4c3e921713260affe41c2ecd50df",
+                "reference": "4c2224e741ff4c3e921713260affe41c2ecd50df",
                 "shasum": ""
             },
             "require": {
@@ -1270,7 +1270,7 @@
                 "MIT"
             ],
             "description": "Installer scripts for Hurah!",
-            "time": "2020-10-02T11:53:26+00:00"
+            "time": "2020-10-02T12:30:26+00:00"
         },
         {
             "name": "hurah/innovation-app-cli-utils",
