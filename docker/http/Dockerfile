@@ -34,5 +34,6 @@ RUN a2enmod rewrite
 RUN a2enmod ssl
 RUN ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
 RUN echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-# RUN tac /etc/apache2/apache2.conf | sed '2 a Include /app/assets/server/http/server.conf' | tac > /etc/apache2/apache2.conf
+RUN sed -i '/IncludeOptional sites-enabled/a \\n# Novum Innovation app addition\nInclude \/app\/assets\/server\/http\/server\.conf' /etc/apache2/apache2.conf
+
 RUN umask 0000
