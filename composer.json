@@ -8,9 +8,10 @@
         }
     ],
     "require": {
-        "hurah/hurah-installer": "dev-master",
-        "hurah/innovation-app-cli-utils" : "dev-master",
-        "hurah/innovation-app-util-http": "dev-master",
-        "novum/domain-svb": "dev-master"
+        "hurah/hurah-installer": "*",
+        "novum/site-innovation-app-docs" : "*",
+        "hurah/innovation-app-util-http": "*",
+        "novum/domain-svb": "*",
+        "ext-mysqli": "*"
     }
 }
