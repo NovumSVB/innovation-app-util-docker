@@ -18,6 +18,11 @@ You need a git client, docker-compose and docker installed.
 #### 3. Start containers
 ```docker-compose up```
 
+#### 4. Install dependencies
+```./composer update```
+```./composer dump-autoload```
+```./composer novum:db-init```
+```./composer novum:db-migrate```
 
 ### What will happen?
 Two containers will be launched, one is a database server (mariadb) and the other a webserver (Apache). The webserver

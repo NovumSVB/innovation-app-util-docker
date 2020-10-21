@@ -32,6 +32,7 @@ WORKDIR /app
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 RUN a2enmod rewrite
 RUN a2enmod ssl
+RUN a2enmod env
 RUN a2enmod vhost_alias
 RUN ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
 RUN echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config

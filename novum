@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) vendor/bin/novum.php $@

@@ -9,9 +9,12 @@
     ],
     "require": {
         "hurah/hurah-installer": "*",
-        "novum/site-innovation-app-docs" : "*",
+        "novum/site-innovation-app-docs": "*",
         "hurah/innovation-app-util-http": "*",
         "novum/domain-svb": "*",
-        "ext-mysqli": "*"
+        "ext-mysqli": "*",
+        "ext-dom": "*",
+        "ext-simplexml": "*",
+      "ext-libxml": "*"
     }
 }

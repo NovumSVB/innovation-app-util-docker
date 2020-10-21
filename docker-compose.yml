@@ -19,6 +19,9 @@ services:
     networks:
       public_net:
         ipv4_address: ${WEB_IP}
+    environment:
+      - SYSTEM_ROOT=${SYSTEM_ROOT}
+      - DEV_TOP_LEVEL_DOMAIN=${DEV_TOP_LEVEL_DOMAIN}
   database:
     build:
       context: docker/database
