@@ -1278,12 +1278,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/NovumGit/innovation-app-util-http.git",
-                "reference": "f8b259e7dd1c2149ab18dd9a8acc1c76e4f2c30d"
+                "reference": "c39e084ac3f3e48d851623b057f9975fb18a7cc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-util-http/repository/archive.zip?sha=f8b259e7dd1c2149ab18dd9a8acc1c76e4f2c30d",
-                "reference": "f8b259e7dd1c2149ab18dd9a8acc1c76e4f2c30d",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-util-http/repository/archive.zip?sha=c39e084ac3f3e48d851623b057f9975fb18a7cc2",
+                "reference": "c39e084ac3f3e48d851623b057f9975fb18a7cc2",
                 "shasum": ""
             },
             "require": {
@@ -1313,7 +1313,7 @@
                 }
             ],
             "description": "Generates webserver configuration files during the installation of api's or sites.",
-            "time": "2020-10-20T12:56:36+00:00"
+            "time": "2020-10-21T07:57:35+00:00"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -1844,12 +1844,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/php-generator.git",
-                "reference": "c9480f7458741886233d7d645556bdd55c5e0bb4"
+                "reference": "b7b315b1694f9deda73c9b06a1adb672b88876c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/php-generator/zipball/c9480f7458741886233d7d645556bdd55c5e0bb4",
-                "reference": "c9480f7458741886233d7d645556bdd55c5e0bb4",
+                "url": "https://api.github.com/repos/nette/php-generator/zipball/b7b315b1694f9deda73c9b06a1adb672b88876c1",
+                "reference": "b7b315b1694f9deda73c9b06a1adb672b88876c1",
                 "shasum": ""
             },
             "require": {
@@ -1900,7 +1900,7 @@
                 "php",
                 "scaffolding"
             ],
-            "time": "2020-10-13T17:21:21+00:00"
+            "time": "2020-10-21T06:39:00+00:00"
         },
         {
             "name": "nette/utils",
@@ -1986,12 +1986,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/NovumGit/innovation-app-docs-domain.git",
-                "reference": "d7cea186638156843800b8d7d472707266bd1cde"
+                "reference": "a2627da8a3d84b07675580cc92034eaa4720d170"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-docs-domain/repository/archive.zip?sha=d7cea186638156843800b8d7d472707266bd1cde",
-                "reference": "d7cea186638156843800b8d7d472707266bd1cde",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-docs-domain/repository/archive.zip?sha=a2627da8a3d84b07675580cc92034eaa4720d170",
+                "reference": "a2627da8a3d84b07675580cc92034eaa4720d170",
                 "shasum": ""
             },
             "require": {
@@ -2026,7 +2026,7 @@
                 "nlx",
                 "novum"
             ],
-            "time": "2020-10-14T12:20:32+00:00"
+            "time": "2020-10-21T07:24:55+00:00"
         },
         {
             "name": "novum/domain-svb",
@@ -2034,12 +2034,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/NovumGit/innovation-app-svb-domain.git",
-                "reference": "64ef8454aeb759a5ece21938b8ec96f6b52a1988"
+                "reference": "55ebc4a3face07648148b1a16fdf7b8e0fa580a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-svb-domain/repository/archive.zip?sha=64ef8454aeb759a5ece21938b8ec96f6b52a1988",
-                "reference": "64ef8454aeb759a5ece21938b8ec96f6b52a1988",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-svb-domain/repository/archive.zip?sha=55ebc4a3face07648148b1a16fdf7b8e0fa580a0",
+                "reference": "55ebc4a3face07648148b1a16fdf7b8e0fa580a0",
                 "shasum": ""
             },
             "require": {
@@ -2073,7 +2073,7 @@
                 "nlx",
                 "novum"
             ],
-            "time": "2020-10-14T12:50:43+00:00"
+            "time": "2020-10-21T07:54:59+00:00"
         },
         {
             "name": "novum/innovation-app-core",
@@ -2081,12 +2081,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/NovumGit/innovation-app-core.git",
-                "reference": "8b390b0971c5d5dee7a8f1c34eb33a1e30fe9950"
+                "reference": "ef22ef2ab43d3f62e09e248c326b5644908b8eb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-core/repository/archive.zip?sha=8b390b0971c5d5dee7a8f1c34eb33a1e30fe9950",
-                "reference": "8b390b0971c5d5dee7a8f1c34eb33a1e30fe9950",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-core/repository/archive.zip?sha=ef22ef2ab43d3f62e09e248c326b5644908b8eb7",
+                "reference": "ef22ef2ab43d3f62e09e248c326b5644908b8eb7",
                 "shasum": ""
             },
             "require": {
@@ -2159,7 +2159,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-10-20T09:52:39+00:00"
+            "time": "2020-10-21T08:17:00+00:00"
         },
         {
             "name": "novum/site-innovation-app-docs",
@@ -2167,12 +2167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/NovumGit/innovation-app-innovation-app-docs-website.git",
-                "reference": "320427bac9e73f1fe81ef992721cce05ffd099bf"
+                "reference": "7bff1bb749ef5550c5e0ee1630f2bb0b0f3c2cfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-innovation-app-docs-website/repository/archive.zip?sha=320427bac9e73f1fe81ef992721cce05ffd099bf",
-                "reference": "320427bac9e73f1fe81ef992721cce05ffd099bf",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-innovation-app-docs-website/repository/archive.zip?sha=7bff1bb749ef5550c5e0ee1630f2bb0b0f3c2cfb",
+                "reference": "7bff1bb749ef5550c5e0ee1630f2bb0b0f3c2cfb",
                 "shasum": ""
             },
             "require": {
@@ -2212,7 +2212,7 @@
                 "nlx",
                 "novum"
             ],
-            "time": "2020-10-12T12:36:53+00:00"
+            "time": "2020-10-20T13:24:35+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -3736,12 +3736,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "d845c55a7ae2d918cd6d47f655bf494cfc675066"
+                "reference": "9e03f05b35165094f44e45f5530f2a17082b0574"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/d845c55a7ae2d918cd6d47f655bf494cfc675066",
-                "reference": "d845c55a7ae2d918cd6d47f655bf494cfc675066",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/9e03f05b35165094f44e45f5530f2a17082b0574",
+                "reference": "9e03f05b35165094f44e45f5530f2a17082b0574",
                 "shasum": ""
             },
             "require": {
@@ -3790,7 +3790,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-13T13:22:54+00:00"
+            "time": "2020-10-21T04:47:22+00:00"
         },
         {
             "name": "symfony/finder",
