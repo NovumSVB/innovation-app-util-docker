@@ -16,8 +16,9 @@
         "ext-dom": "*",
         "ext-simplexml": "*",
         "ext-libxml": "*",
-		"ext-json": "*"
-	},
+        "ext-json": "*",
+        "novum/site-aasdfasdfdas": "dev-master"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.3@dev"
     }
