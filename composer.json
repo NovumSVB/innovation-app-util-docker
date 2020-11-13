@@ -10,14 +10,15 @@
     "require": {
         "hurah/hurah-installer": "*",
         "hurah/innovation-app-util-http": "*",
-        "novum/site-innovation-app-docs": "*",
+        "novum/site-innovation-app-docs": "dev-master",
         "novum/domain-svb": "*",
         "ext-mysqli": "*",
         "ext-dom": "*",
         "ext-simplexml": "*",
         "ext-libxml": "*",
         "ext-json": "*",
-        "php" : ">=7.4"
+        "php": ">=7.4",
+        "ext-fileinfo": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3@dev"

@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-CONTAINER_NAME=$$(source .env && docker ps | grep "http" | cut -d " " -f1)
-docker exec -it  vendor/bin/novum.php $@
-
-if [ "$1" = "package:install" ]; then
-  echo "Restarting webserver"
-  docker-compose restart innovation-app
-fi
