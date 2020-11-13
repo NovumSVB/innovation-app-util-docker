@@ -4,7 +4,7 @@
     "authors": [
         {
             "name": "Anton Boutkam",
-            "email": "anton@nui-boutkam.nl"
+            "email": "anton@novum.nu"
         }
     ],
     "require": {
@@ -17,7 +17,7 @@
         "ext-simplexml": "*",
         "ext-libxml": "*",
         "ext-json": "*",
-        "novum/site-aasdfasdfdas": "dev-master"
+        "php" : ">=7.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3@dev"
