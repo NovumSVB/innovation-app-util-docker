@@ -1,2 +1,7 @@
 #!/usr/bin/env bash
 docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) vendor/bin/novum.php $@
+
+if [ "$1" = "package:install" ]; then
+  echo "Restarting webserver"
+  docker-compose restart http
+fi

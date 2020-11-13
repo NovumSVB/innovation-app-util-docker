@@ -1,0 +1,19 @@
+{
+  "config_dir": "novum.repository",
+  "namespace": "ApiNovumRepository",
+  "site": {
+    "dev": {
+      "protocol": "http",
+      "domain": "Environment is dev, domain name = repository.demo.novum.nuapi.demo.novum.nu"
+    },
+    "test": {
+      "protocol": "https",
+      "domain": "Environment is test, domain name = repository.demo.novum.nuapi.repository.demo.novum.nu"
+    },
+    "prod": {
+      "protocol": "https",
+      "domain": "Environment is live, domain name = repository.demo.novum.nuapi.repository.demo.novum.nu"
+    }
+  },
+  "server_admin": "anton@novum.nu"
+}

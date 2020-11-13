@@ -1,0 +1,32 @@
+{
+    "name": "novum/api-repository",
+    "description": "Novum Innovation App package repository",
+    "type": "novum-api",
+    "require": {
+        "novum/innovation-app-core": "*",
+        "novum/api-repository": "dev-master",
+        "hurah/hurah-installer": "*",
+        "PHP": ">=7.4"
+    },
+    "license": "MIT",
+    "prefer-stable": false,
+    "homepage": "https://docs.demo.novum.nu/",
+    "minimum-stability": "dev",
+    "keywords": [
+        "fake api, belastingdienst"
+    ],
+    "authors": [
+        {
+            "name": "Anton",
+            "email": "anton@novum.nu"
+        }
+    ],
+    "extra": {
+        "install_dir": "api.repository.demo.novum.nu"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiNovumRepository\\": "modules"
+        }
+    }
+}
