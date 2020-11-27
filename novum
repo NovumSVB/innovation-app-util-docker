@@ -1,7 +1,18 @@
 #!/usr/bin/env bash
-docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) vendor/bin/novum.php $@
 
-if [ "$1" = "package:install" ]; then
-  echo "Restarting webserver"
-  docker-compose restart http
+CONTAINER_ID=$(source .env && docker ps | grep "http" | cut -d " " -f1);
+
+if [ "$CONTAINER_ID" = "" ]; then
+    echo "Webserver container not found, did you start them?"
+    echo "You can do so with:'docker-compose up -d'."
+
+else
+    docker exec -it $CONTAINER_ID vendor/bin/novum.php $@
+
+    if [ "$1" = "package:install" ]; then
+      echo "Restarting webserver"
+      docker-compose restart http
+    fi
+
 fi
+
