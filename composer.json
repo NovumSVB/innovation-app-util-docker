@@ -1,5 +1,5 @@
 {
-    "name": "anton/test-svb",
+    "name": "novum/innovation-app-util-docker",
     "minimum-stability": "dev",
     "authors": [
         {
@@ -10,15 +10,15 @@
     "require": {
         "hurah/hurah-installer": "*",
         "hurah/innovation-app-util-http": "*",
-        "novum/site-innovation-app-docs": "dev-master",
-        "novum/domain-svb": "*",
         "ext-mysqli": "*",
         "ext-dom": "*",
         "ext-simplexml": "*",
         "ext-libxml": "*",
         "ext-json": "*",
         "php": ">=7.4",
-        "ext-fileinfo": "*"
+        "ext-fileinfo": "*",
+        "novum/site-home": "dev-master",
+        "novum/site-docs": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3@dev"
