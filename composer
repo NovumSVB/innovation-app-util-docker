@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) composer $@
-chmod 777 ./* -R
+docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) /bin/chmod 777 "/app" -R
 
 if [ "$1" = "package:install" ]; then
   echo "Restarting webserver"
