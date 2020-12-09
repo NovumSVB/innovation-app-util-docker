@@ -1097,12 +1097,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonboutkam/innovation-app-certbot-helper.git",
-                "reference": "8e2dbe536f76fb57ea30d9f607b9d73f27a2f36a"
+                "reference": "b0e34a78ec4db59c6b56a8cf9616ca7ccd0affc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonboutkam/innovation-app-certbot-helper/zipball/8e2dbe536f76fb57ea30d9f607b9d73f27a2f36a",
-                "reference": "8e2dbe536f76fb57ea30d9f607b9d73f27a2f36a",
+                "url": "https://api.github.com/repos/antonboutkam/innovation-app-certbot-helper/zipball/b0e34a78ec4db59c6b56a8cf9616ca7ccd0affc6",
+                "reference": "b0e34a78ec4db59c6b56a8cf9616ca7ccd0affc6",
                 "shasum": ""
             },
             "require": {
@@ -1135,7 +1135,7 @@
                 }
             ],
             "description": "Small utility that helps setting up SSL certificates for the Novum Innovation app",
-            "time": "2020-12-09T11:08:57+00:00"
+            "time": "2020-12-09T11:56:02+00:00"
         },
         {
             "name": "hurah/data-types",
@@ -1221,12 +1221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/NovumGit/innovation-app-util-http.git",
-                "reference": "e205c19c821444606962689b723b1f4a8f52dc2c"
+                "reference": "2720f93ab5db939e707c536c46d0c6c45baecd07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-util-http/repository/archive.zip?sha=e205c19c821444606962689b723b1f4a8f52dc2c",
-                "reference": "e205c19c821444606962689b723b1f4a8f52dc2c",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-util-http/repository/archive.zip?sha=2720f93ab5db939e707c536c46d0c6c45baecd07",
+                "reference": "2720f93ab5db939e707c536c46d0c6c45baecd07",
                 "shasum": ""
             },
             "require": {
@@ -1256,7 +1256,7 @@
                 }
             ],
             "description": "Generates webserver configuration files during the installation of api's or sites.",
-            "time": "2020-12-09T11:34:13+00:00"
+            "time": "2020-12-09T11:43:43+00:00"
         },
         {
             "name": "jms/metadata",
