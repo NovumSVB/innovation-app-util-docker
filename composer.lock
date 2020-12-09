@@ -1221,12 +1221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/NovumGit/innovation-app-util-http.git",
-                "reference": "7b48918aabf21b0fa24b078e657060ae08337c19"
+                "reference": "c9bc94dbec7c43e111241f3dd095bb6c34afe8ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-util-http/repository/archive.zip?sha=7b48918aabf21b0fa24b078e657060ae08337c19",
-                "reference": "7b48918aabf21b0fa24b078e657060ae08337c19",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-util-http/repository/archive.zip?sha=c9bc94dbec7c43e111241f3dd095bb6c34afe8ca",
+                "reference": "c9bc94dbec7c43e111241f3dd095bb6c34afe8ca",
                 "shasum": ""
             },
             "require": {
@@ -1256,7 +1256,7 @@
                 }
             ],
             "description": "Generates webserver configuration files during the installation of api's or sites.",
-            "time": "2020-12-09T10:09:37+00:00"
+            "time": "2020-12-09T11:25:29+00:00"
         },
         {
             "name": "jms/metadata",
