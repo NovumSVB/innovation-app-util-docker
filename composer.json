@@ -20,14 +20,6 @@
         "ext-fileinfo": "*",
         "novum/site-home": "dev-master",
         "novum/site-docs": "dev-master",
-
-        "novum/api-belastingdienst": "dev-master",
-        "novum/api-burger": "dev-master",
-        "novum/api-cbs": "dev-master",
-        "novum/api-cjib": "dev-master",
-        "novum/api-digid": "dev-master",
-        "novum/domain-bri": "dev-master",
-        "novum/api-gemeente": "dev-master",
         "novum/api-repository": "dev-main"
     },
     "require-dev": {

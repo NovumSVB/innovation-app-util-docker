@@ -12,6 +12,7 @@ services:
     volumes:
       - .:/app
       - ./docker/http/scripts:/scripts
+      - ./docker/http/includes:/includes
     ports:
       - ${WEB_PORT}:80
       - ${SSL_WEB_PORT}:443
