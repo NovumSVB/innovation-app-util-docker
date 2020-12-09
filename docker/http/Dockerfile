@@ -41,6 +41,6 @@ RUN rm -fr /etc/apache2/sites-available/000-default.conf
 RUN rm -fr /etc/apache2/sites-enabled/000-default.conf
 RUN mkdir -p /app/data/CertBot
 RUN chmod 777 /app/data -R
-COPY ./docker/http/options-ssl-apache.conf
+COPY ./docker/http/options-ssl-apache.conf /app/data/CertBot
 RUN umask 0000
 RUN composer self-update --1
