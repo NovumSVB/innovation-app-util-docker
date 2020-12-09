@@ -39,5 +39,7 @@ RUN echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 RUN sed -i '/IncludeOptional sites-enabled/a \\n# Novum Innovation app addition\nIncludeOptional \/app\/assets\/server\/http\/server\.conf' /etc/apache2/apache2.conf
 RUN rm -fr /etc/apache2/sites-available/000-default.conf
 RUN rm -fr /etc/apache2/sites-enabled/000-default.conf
+RUN mkdir /app/data/CertBot
+RUN COPY ./docker/http/options-ssl-apache.conf
 RUN umask 0000
 RUN composer self-update --1
