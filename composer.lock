@@ -1097,17 +1097,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonboutkam/innovation-app-certbot-helper.git",
-                "reference": "b3528429608e3695ab59c74854d2fbe7b9c461b7"
+                "reference": "8e2dbe536f76fb57ea30d9f607b9d73f27a2f36a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonboutkam/innovation-app-certbot-helper/zipball/b3528429608e3695ab59c74854d2fbe7b9c461b7",
-                "reference": "b3528429608e3695ab59c74854d2fbe7b9c461b7",
+                "url": "https://api.github.com/repos/antonboutkam/innovation-app-certbot-helper/zipball/8e2dbe536f76fb57ea30d9f607b9d73f27a2f36a",
+                "reference": "8e2dbe536f76fb57ea30d9f607b9d73f27a2f36a",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "^7.4",
-                "hurah/data-types": "^1.0.2-dev",
+                "hurah/data-types": "^1.0.3",
                 "hurah/innovation-app-util-http": "dev-master",
                 "php": "^7.4",
                 "symfony/console": "5.x-dev"
@@ -1135,7 +1135,7 @@
                 }
             ],
             "description": "Small utility that helps setting up SSL certificates for the Novum Innovation app",
-            "time": "2020-12-08T21:30:18+00:00"
+            "time": "2020-12-09T11:08:57+00:00"
         },
         {
             "name": "hurah/data-types",
