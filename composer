@@ -4,7 +4,7 @@ docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) compo
 docker exec -e COMPOSER_DISCARD_CHANGES='true' -it $(source .env && docker ps | grep "http" | cut -d " " -f1) composer $@ --no-interaction
 
 # Checking if composer issue is resolved like this
-# docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) /bin/chmod 777 "/app" -R
+docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) /bin/chmod 777 "/app" -R
 
 if [ "$1" = "package:install" ]; then
   echo "Restarting webserver"
