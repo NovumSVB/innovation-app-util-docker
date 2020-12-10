@@ -17,13 +17,11 @@
         "ext-fileinfo": "*",
         "hurah/hurah-installer": "*",
         "hurah/innovation-app-util-http": "*",
-        "hurah/certbot-helper": "^1.0",
-        "novum/site-home": "^1.0",
-        "novum/site-docs": "*",
-        "novum/api-repository": "dev-main"
+        "hurah/certbot-helper": "^v1.0",
+        "novum/site-home": "^v1.0",
+        "novum/site-docs": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3@dev"
     }
-
 }
