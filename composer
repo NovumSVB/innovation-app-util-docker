@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) composer config --global discard-changes true
-docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) COMPOSER_DISCARD_CHANGES=true composer $@ --no-interaction
+docker exec -e COMPOSER_DISCARD_CHANGES='true' -it $(source .env && docker ps | grep "http" | cut -d " " -f1) composer $@ --no-interaction
 
 # Checking if composer issue is resolved like this
 # docker exec -it $(source .env && docker ps | grep "http" | cut -d " " -f1) /bin/chmod 777 "/app" -R
