@@ -21,6 +21,7 @@ RUN DEBIAN_FRONTEND=noninteractive TZ="Europe/Amsterdam" apt-get install -y \
     php7.4-mysqli \
     php7.4-pdo \
     php7.4-sockets \
+    php7.4-intl \
     php7.4-gd \
     php7.4-mbstring \
     php7.4-curl \

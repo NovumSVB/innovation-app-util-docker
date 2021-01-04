@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6603ef7d1e16fd6323f7fc7f3a88cf0f",
+    "content-hash": "b3bd5fff693362201f001c193f5472ad",
     "packages": [
         {
             "name": "bluerhinos/phpmqtt",
@@ -1260,6 +1260,50 @@
             "time": "2020-12-09T13:23:13+00:00"
         },
         {
+            "name": "hurah/util",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antonboutkam/util.git",
+                "reference": "28959521115fa9026932533bd5f326fd8862602e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antonboutkam/util/zipball/28959521115fa9026932533bd5f326fd8862602e",
+                "reference": "28959521115fa9026932533bd5f326fd8862602e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "^7.4",
+                "hurah/data-types": "^1.0.0",
+                "monolog/monolog": "1.24.*",
+                "php": "^7.4",
+                "propel/propel": "~2.0@dev",
+                "twig/twig": "2.14.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Utils\\": "./src/Util"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Boutkam",
+                    "email": "anton@nui-boutkam.nl"
+                }
+            ],
+            "description": "Collection of general purpose utility classes that i use in various projects",
+            "time": "2020-12-14T12:05:24+00:00"
+        },
+        {
             "name": "jms/metadata",
             "version": "dev-master",
             "source": {
@@ -1935,296 +1979,6 @@
             "time": "2020-11-27T22:13:21+00:00"
         },
         {
-            "name": "novum/domain-bri",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-bri-domain.git",
-                "reference": "1308d8278ce4315f295ca5ca7b10cc916650ddad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-bri-domain/repository/archive.zip?sha=1308d8278ce4315f295ca5ca7b10cc916650ddad",
-                "reference": "1308d8278ce4315f295ca5ca7b10cc916650ddad",
-                "shasum": ""
-            },
-            "require": {
-                "hurah/hurah-installer": "*",
-                "novum/innovation-app-core": "*",
-                "php": ">=7.3"
-            },
-            "type": "novum-domain",
-            "extra": {
-                "system_id": "novum.bri"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Core\\": "classes/Core",
-                    "Crud\\": "classes/Crud",
-                    "Model\\": "classes/Model",
-                    "AdminModules\\": "admin_modules"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anton Boutkam",
-                    "email": "anton@novum.nu"
-                },
-                {
-                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
-                    "email": "info@novum.nu"
-                }
-            ],
-            "description": "Fake \"Belastingdienst\" domain definition files",
-            "homepage": "https://innovatie.app.demo.novum.nu",
-            "keywords": [
-                "api",
-                "innovatie lab",
-                "nlx",
-                "novum"
-            ],
-            "time": "2020-12-03T20:13:06+00:00"
-        },
-        {
-            "name": "novum/domain-brp",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-brp-domain.git",
-                "reference": "af519e14f8ec86e6036586bc9ab1e5bbaad1fa86"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-brp-domain/repository/archive.zip?sha=af519e14f8ec86e6036586bc9ab1e5bbaad1fa86",
-                "reference": "af519e14f8ec86e6036586bc9ab1e5bbaad1fa86",
-                "shasum": ""
-            },
-            "require": {
-                "hurah/hurah-installer": "*",
-                "novum/innovation-app-core": "*",
-                "php": ">=7.3"
-            },
-            "type": "novum-domain",
-            "extra": {
-                "system_id": "novum.bri"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anton Boutkam",
-                    "email": "anton@novum.nu"
-                },
-                {
-                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
-                    "email": "info@novum.nu"
-                }
-            ],
-            "description": "Fake \"Basisregistratie persoonsgegevens\" domain definition files",
-            "homepage": "https://innovatie.app.demo.novum.nu",
-            "keywords": [
-                "api",
-                "innovatie lab",
-                "nlx",
-                "novum"
-            ],
-            "time": "2020-12-04T06:44:32+00:00"
-        },
-        {
-            "name": "novum/domain-burger",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-burger-domain.git",
-                "reference": "68d371a95462016e90df20ee1ded97e55309d504"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-burger-domain/repository/archive.zip?sha=68d371a95462016e90df20ee1ded97e55309d504",
-                "reference": "68d371a95462016e90df20ee1ded97e55309d504",
-                "shasum": ""
-            },
-            "require": {
-                "hurah/hurah-installer": "*",
-                "novum/innovation-app-core": "*",
-                "php": ">=7.3"
-            },
-            "type": "novum-domain",
-            "extra": {
-                "system_id": "novum.burger"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anton Boutkam",
-                    "email": "anton@novum.nu"
-                },
-                {
-                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
-                    "email": "info@novum.nu"
-                }
-            ],
-            "description": "Fake \"Nederlandse Burger\" domain definition files",
-            "homepage": "https://innovatie.app.demo.novum.nu",
-            "keywords": [
-                "api",
-                "innovatie lab",
-                "nlx",
-                "novum"
-            ],
-            "time": "2020-12-03T20:01:15+00:00"
-        },
-        {
-            "name": "novum/domain-cbs",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-cbs-domain.git",
-                "reference": "6f198b4bcdb5eb5601ccb01e3faf42b296ab1eb6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-cbs-domain/repository/archive.zip?sha=6f198b4bcdb5eb5601ccb01e3faf42b296ab1eb6",
-                "reference": "6f198b4bcdb5eb5601ccb01e3faf42b296ab1eb6",
-                "shasum": ""
-            },
-            "require": {
-                "hurah/hurah-installer": "*",
-                "novum/innovation-app-core": "*",
-                "php": ">=7.3"
-            },
-            "type": "novum-domain",
-            "extra": {
-                "system_id": "novum.cbs"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anton Boutkam",
-                    "email": "anton@novum.nu"
-                },
-                {
-                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
-                    "email": "info@novum.nu"
-                }
-            ],
-            "description": "Fake \"Centraal bureau voor de statistiek (CBS)\" domain definition files",
-            "homepage": "https://innovatie.app.demo.novum.nu",
-            "keywords": [
-                "api",
-                "innovatie lab",
-                "nlx",
-                "novum"
-            ],
-            "time": "2020-12-03T21:48:54+00:00"
-        },
-        {
-            "name": "novum/domain-cjib",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-cjib-domain.git",
-                "reference": "f99fcb082a57214474f55e06fab2d56d821204cd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-cjib-domain/repository/archive.zip?sha=f99fcb082a57214474f55e06fab2d56d821204cd",
-                "reference": "f99fcb082a57214474f55e06fab2d56d821204cd",
-                "shasum": ""
-            },
-            "require": {
-                "hurah/hurah-installer": "*",
-                "novum/innovation-app-core": "*",
-                "php": ">=7.3"
-            },
-            "type": "novum-domain",
-            "extra": {
-                "system_id": "novum.cjib"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anton Boutkam",
-                    "email": "anton@novum.nu"
-                },
-                {
-                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
-                    "email": "info@novum.nu"
-                }
-            ],
-            "description": "Fake \"Centraal justitieel incassobureau (CJIB)\" domain definition files",
-            "homepage": "https://innovatie.app.demo.novum.nu",
-            "keywords": [
-                "api",
-                "innovatie lab",
-                "nlx",
-                "novum"
-            ],
-            "time": "2020-12-03T22:02:31+00:00"
-        },
-        {
-            "name": "novum/domain-digid",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/NovumGit/innovation-app-digid-domain.git",
-                "reference": "08cee1a9bb694badfe003d1a00d8d1b43daa6daf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-digid-domain/repository/archive.zip?sha=08cee1a9bb694badfe003d1a00d8d1b43daa6daf",
-                "reference": "08cee1a9bb694badfe003d1a00d8d1b43daa6daf",
-                "shasum": ""
-            },
-            "require": {
-                "hurah/hurah-installer": "*",
-                "novum/innovation-app-core": "*",
-                "php": ">=7.3"
-            },
-            "type": "novum-domain",
-            "extra": {
-                "system_id": "novum.digid"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anton Boutkam",
-                    "email": "anton@novum.nu"
-                },
-                {
-                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
-                    "email": "info@novum.nu"
-                }
-            ],
-            "description": "Fake \"Digid\" domain definition files",
-            "homepage": "https://innovatie.app.demo.novum.nu",
-            "keywords": [
-                "api",
-                "innovatie lab",
-                "nlx",
-                "novum"
-            ],
-            "time": "2020-12-03T22:14:31+00:00"
-        },
-        {
             "name": "novum/domain-home",
             "version": "dev-master",
             "source": {
@@ -2364,12 +2118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/NovumGit/innovation-app-core.git",
-                "reference": "da125780497865c4fd5d69ed8968c9b563df1053"
+                "reference": "66565a35e54bad7b802b71472bc8d00453f6257c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-core/repository/archive.zip?sha=da125780497865c4fd5d69ed8968c9b563df1053",
-                "reference": "da125780497865c4fd5d69ed8968c9b563df1053",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-core/repository/archive.zip?sha=66565a35e54bad7b802b71472bc8d00453f6257c",
+                "reference": "66565a35e54bad7b802b71472bc8d00453f6257c",
                 "shasum": ""
             },
             "require": {
@@ -2443,7 +2197,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2020-12-10T00:42:21+00:00"
+            "time": "2020-12-10T02:09:30+00:00"
         },
         {
             "name": "novum/site-docs",
@@ -5230,6 +4984,296 @@
             "time": "2020-12-03T17:45:45+00:00"
         },
         {
+            "name": "novum/domain-bri",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/NovumGit/innovation-app-bri-domain.git",
+                "reference": "1308d8278ce4315f295ca5ca7b10cc916650ddad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-bri-domain/repository/archive.zip?sha=1308d8278ce4315f295ca5ca7b10cc916650ddad",
+                "reference": "1308d8278ce4315f295ca5ca7b10cc916650ddad",
+                "shasum": ""
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.3"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.bri"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Core\\": "classes/Core",
+                    "Crud\\": "classes/Crud",
+                    "Model\\": "classes/Model",
+                    "AdminModules\\": "admin_modules"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Boutkam",
+                    "email": "anton@novum.nu"
+                },
+                {
+                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
+                    "email": "info@novum.nu"
+                }
+            ],
+            "description": "Fake \"Belastingdienst\" domain definition files",
+            "homepage": "https://innovatie.app.demo.novum.nu",
+            "keywords": [
+                "api",
+                "innovatie lab",
+                "nlx",
+                "novum"
+            ],
+            "time": "2020-12-03T20:13:06+00:00"
+        },
+        {
+            "name": "novum/domain-brp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/NovumGit/innovation-app-brp-domain.git",
+                "reference": "af519e14f8ec86e6036586bc9ab1e5bbaad1fa86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-brp-domain/repository/archive.zip?sha=af519e14f8ec86e6036586bc9ab1e5bbaad1fa86",
+                "reference": "af519e14f8ec86e6036586bc9ab1e5bbaad1fa86",
+                "shasum": ""
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.3"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.bri"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Boutkam",
+                    "email": "anton@novum.nu"
+                },
+                {
+                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
+                    "email": "info@novum.nu"
+                }
+            ],
+            "description": "Fake \"Basisregistratie persoonsgegevens\" domain definition files",
+            "homepage": "https://innovatie.app.demo.novum.nu",
+            "keywords": [
+                "api",
+                "innovatie lab",
+                "nlx",
+                "novum"
+            ],
+            "time": "2020-12-04T06:44:32+00:00"
+        },
+        {
+            "name": "novum/domain-burger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/NovumGit/innovation-app-burger-domain.git",
+                "reference": "68d371a95462016e90df20ee1ded97e55309d504"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-burger-domain/repository/archive.zip?sha=68d371a95462016e90df20ee1ded97e55309d504",
+                "reference": "68d371a95462016e90df20ee1ded97e55309d504",
+                "shasum": ""
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.3"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.burger"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Boutkam",
+                    "email": "anton@novum.nu"
+                },
+                {
+                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
+                    "email": "info@novum.nu"
+                }
+            ],
+            "description": "Fake \"Nederlandse Burger\" domain definition files",
+            "homepage": "https://innovatie.app.demo.novum.nu",
+            "keywords": [
+                "api",
+                "innovatie lab",
+                "nlx",
+                "novum"
+            ],
+            "time": "2020-12-03T20:01:15+00:00"
+        },
+        {
+            "name": "novum/domain-cbs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/NovumGit/innovation-app-cbs-domain.git",
+                "reference": "6f198b4bcdb5eb5601ccb01e3faf42b296ab1eb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-cbs-domain/repository/archive.zip?sha=6f198b4bcdb5eb5601ccb01e3faf42b296ab1eb6",
+                "reference": "6f198b4bcdb5eb5601ccb01e3faf42b296ab1eb6",
+                "shasum": ""
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.3"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.cbs"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Boutkam",
+                    "email": "anton@novum.nu"
+                },
+                {
+                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
+                    "email": "info@novum.nu"
+                }
+            ],
+            "description": "Fake \"Centraal bureau voor de statistiek (CBS)\" domain definition files",
+            "homepage": "https://innovatie.app.demo.novum.nu",
+            "keywords": [
+                "api",
+                "innovatie lab",
+                "nlx",
+                "novum"
+            ],
+            "time": "2020-12-03T21:48:54+00:00"
+        },
+        {
+            "name": "novum/domain-cjib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/NovumGit/innovation-app-cjib-domain.git",
+                "reference": "f99fcb082a57214474f55e06fab2d56d821204cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-cjib-domain/repository/archive.zip?sha=f99fcb082a57214474f55e06fab2d56d821204cd",
+                "reference": "f99fcb082a57214474f55e06fab2d56d821204cd",
+                "shasum": ""
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.3"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.cjib"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Boutkam",
+                    "email": "anton@novum.nu"
+                },
+                {
+                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
+                    "email": "info@novum.nu"
+                }
+            ],
+            "description": "Fake \"Centraal justitieel incassobureau (CJIB)\" domain definition files",
+            "homepage": "https://innovatie.app.demo.novum.nu",
+            "keywords": [
+                "api",
+                "innovatie lab",
+                "nlx",
+                "novum"
+            ],
+            "time": "2020-12-03T22:02:31+00:00"
+        },
+        {
+            "name": "novum/domain-digid",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/NovumGit/innovation-app-digid-domain.git",
+                "reference": "08cee1a9bb694badfe003d1a00d8d1b43daa6daf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/NovumGit%2Finnovation-app-digid-domain/repository/archive.zip?sha=08cee1a9bb694badfe003d1a00d8d1b43daa6daf",
+                "reference": "08cee1a9bb694badfe003d1a00d8d1b43daa6daf",
+                "shasum": ""
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.3"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.digid"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Boutkam",
+                    "email": "anton@novum.nu"
+                },
+                {
+                    "name": "Novum, het innovatielab van de Sociale Verzekeringsbank",
+                    "email": "info@novum.nu"
+                }
+            ],
+            "description": "Fake \"Digid\" domain definition files",
+            "homepage": "https://innovatie.app.demo.novum.nu",
+            "keywords": [
+                "api",
+                "innovatie lab",
+                "nlx",
+                "novum"
+            ],
+            "time": "2020-12-03T22:14:31+00:00"
+        },
+        {
             "name": "phar-io/manifest",
             "version": "dev-master",
             "source": {
@@ -6938,6 +6982,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "novum/api-repository": 20,
+        "hurah/util": 20,
         "phpunit/phpunit": 20
     },
     "prefer-stable": false,
