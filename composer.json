@@ -21,7 +21,8 @@
         "novum/site-home": "^v1.0",
         "novum/site-docs": "*",
         "novum/api-repository": "dev-main",
-        "hurah/util": "dev-main"
+        "hurah/util": "dev-main",
+        "novum/code-generation": "dev-main"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3@dev"

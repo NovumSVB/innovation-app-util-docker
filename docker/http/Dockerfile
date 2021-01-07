@@ -19,6 +19,7 @@ RUN DEBIAN_FRONTEND=noninteractive TZ="Europe/Amsterdam" apt-get install -y \
     php7.4 \
     php7.4-zip \
     php7.4-mysqli \
+    php7.4-soap \
     php7.4-pdo \
     php7.4-sockets \
     php7.4-intl \
@@ -41,4 +42,4 @@ RUN sed -i '/IncludeOptional sites-enabled/a \\n# Novum Innovation app addition\
 RUN rm -fr /etc/apache2/sites-available/000-default.conf
 RUN rm -fr /etc/apache2/sites-enabled/000-default.conf
 RUN umask 0000
-RUN composer self-update --1
+# RUN composer self-update --1
