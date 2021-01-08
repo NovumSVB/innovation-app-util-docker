@@ -11,6 +11,7 @@ RUN  DEBIAN_FRONTEND=noninteractive TZ="Europe/Amsterdam" apt-get install -y \
 RUN LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php
 RUN DEBIAN_FRONTEND=noninteractive TZ="Europe/Amsterdam" apt-get install -y \
     software-properties-common \
+    inotify-tools \
     language-pack-en-base \
     libxml2 \
     phing \

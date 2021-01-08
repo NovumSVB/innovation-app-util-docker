@@ -11,7 +11,7 @@ services:
     command: "/bin/bash -c \"chmod +x /scripts/init.sh; /scripts/init.sh\""
     volumes:
       - .:/app
-      - ./docker/http/scripts:/scripts
+      - ./docker/http/scripts:/scripts:rw
       - ./docker/http/includes:/includes
     ports:
       - ${WEB_PORT}:80
