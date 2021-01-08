@@ -22,9 +22,69 @@
         "novum/site-docs": "*",
         "novum/api-repository": "dev-main",
         "hurah/util": "dev-main",
-        "novum/code-generation": "dev-main"
+        "novum/code-generation": "dev-main",
+        "novum/domain-xbox": "dev-master",
+        "novum/api-xbox": "dev-master",
+        "novum/domain-sega": "dev-master",
+        "novum/api-sega": "dev-master",
+        "novum/domain-nintendo": "dev-master",
+        "novum/api-nintendo": "dev-master",
+        "novum/domain-atari": "dev-master",
+        "novum/api-atari": "dev-master",
+        "novum/domain-snes": "dev-master",
+        "novum/api-snes": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3@dev"
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "data/repository/api/api.playstation.demo.novum.nu"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/domain/novum.playstation"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/api/api.xbox.demo.novum.nu"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/domain/novum.xbox"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/api/api.sega.demo.novum.nu"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/domain/novum.sega"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/api/api.nintendo.demo.novum.nu"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/domain/novum.nintendo"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/api/api.atari.demo.novum.nu"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/domain/novum.atari"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/api/api.snes.demo.novum.nu"
+        },
+        {
+            "type": "path",
+            "url": "data/repository/domain/novum.snes"
+        }
+    ]
 }

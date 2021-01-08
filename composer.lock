@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c96a023d3b12031686e1229f72c8259f",
+    "content-hash": "252869542f84b665bfb72547712b6a73",
     "packages": [
         {
             "name": "bluerhinos/phpmqtt",
@@ -2138,6 +2138,86 @@
             "time": "2021-01-05T22:56:33+00:00"
         },
         {
+            "name": "novum/api-atari",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "data/repository/api/api.atari.demo.novum.nu",
+                "reference": "88d1081e8bf703d6a6ddbf691071321d6a700f36"
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/api-atari": "dev-master",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.4"
+            },
+            "type": "novum-api",
+            "extra": {
+                "install_dir": "api.atari.demo.novum.nu"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ApiNovumAtari\\": "modules"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "email": []
+                }
+            ],
+            "description": "test",
+            "homepage": "https://docs.demo.novum.nu",
+            "keywords": [
+                "atari"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "novum/api-nintendo",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "data/repository/api/api.nintendo.demo.novum.nu",
+                "reference": "d8933c0c002be2fad446ffa82547a3cc405e7021"
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/api-nintendo": "dev-master",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.4"
+            },
+            "type": "novum-api",
+            "extra": {
+                "install_dir": "api.nintendo.demo.novum.nu"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ApiNovumNintendo\\": "modules"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "email": []
+                }
+            ],
+            "description": "test",
+            "homepage": "https://docs.demo.novum.nu",
+            "keywords": [
+                "nintendo test"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "novum/api-repository",
             "version": "dev-main",
             "source": {
@@ -2189,6 +2269,126 @@
                 "source": "https://github.com/antonboutkam/novum-api-repository/tree/main"
             },
             "time": "2020-12-10T04:25:10+00:00"
+        },
+        {
+            "name": "novum/api-sega",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "data/repository/api/api.sega.demo.novum.nu",
+                "reference": "01d0b93d58751fcaa153cc82839d16fcdc8c5127"
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/api-sega": "dev-master",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.4"
+            },
+            "type": "novum-api",
+            "extra": {
+                "install_dir": "api.sega.demo.novum.nu"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ApiNovumSega\\": "modules"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "email": []
+                }
+            ],
+            "description": "Sega",
+            "homepage": "https://docs.demo.novum.nu",
+            "keywords": [
+                "sega"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "novum/api-snes",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "data/repository/api/api.snes.demo.novum.nu",
+                "reference": "0b73e5ac1579fde4606ee76f42ff1fd7bdac5de7"
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/api-snes": "dev-master",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.4"
+            },
+            "type": "novum-api",
+            "extra": {
+                "install_dir": "api.snes.demo.novum.nu"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ApiNovumSnes\\": "modules"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "email": []
+                }
+            ],
+            "description": "Super Nintendo",
+            "homepage": "https://docs.demo.novum.nu",
+            "keywords": [
+                ""
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "novum/api-xbox",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "data/repository/api/api.xbox.demo.novum.nu",
+                "reference": "7922b55e79cdb2589b5813a2bc4856c2e6d9a192"
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/api-xbox": "dev-master",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.4"
+            },
+            "type": "novum-api",
+            "extra": {
+                "install_dir": "api.xbox.demo.novum.nu"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ApiNovumXbox\\": "modules"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "email": []
+                }
+            ],
+            "description": "This is a test",
+            "homepage": "https://docs.demo.novum.nu",
+            "keywords": [
+                "xbod"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "novum/code-generation",
@@ -2244,6 +2444,40 @@
                 "source": "https://github.com/antonboutkam/generator/tree/main"
             },
             "time": "2021-01-07T20:23:49+00:00"
+        },
+        {
+            "name": "novum/domain-atari",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "data/repository/domain/novum.atari",
+                "reference": "f2a05c4f66ef4cc5db1aedb8040e5e982cf6ef3a"
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.4"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.atari"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "email": []
+                }
+            ],
+            "description": "test",
+            "homepage": "https://docs.demo.novum.nu",
+            "keywords": [
+                "atari"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "novum/domain-docs",
@@ -2347,6 +2581,40 @@
             "time": "2020-12-10T03:15:45+00:00"
         },
         {
+            "name": "novum/domain-nintendo",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "data/repository/domain/novum.nintendo",
+                "reference": "bf2157197db366f46e18e4f15c143b6bf2ce133f"
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.4"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.nintendo"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "email": []
+                }
+            ],
+            "description": "test",
+            "homepage": "https://docs.demo.novum.nu",
+            "keywords": [
+                "nintendo test"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "novum/domain-repository",
             "version": "dev-main",
             "source": {
@@ -2392,6 +2660,108 @@
                 "source": "https://github.com/antonboutkam/novum-domain-repository/tree/main"
             },
             "time": "2020-11-28T13:37:48+00:00"
+        },
+        {
+            "name": "novum/domain-sega",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "data/repository/domain/novum.sega",
+                "reference": "832c33af9b216b23f1cf1c7fd245c9f92c69b244"
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.4"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.sega"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "email": []
+                }
+            ],
+            "description": "Sega",
+            "homepage": "https://docs.demo.novum.nu",
+            "keywords": [
+                "sega"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "novum/domain-snes",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "data/repository/domain/novum.snes",
+                "reference": "d55b7e018c36da67b19e0784997980a9cd314931"
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.4"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.snes"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "email": []
+                }
+            ],
+            "description": "Super Nintendo",
+            "homepage": "https://docs.demo.novum.nu",
+            "keywords": [
+                ""
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "novum/domain-xbox",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "data/repository/domain/novum.xbox",
+                "reference": "18c5cf22584590162c6a4120589427f377f13e0b"
+            },
+            "require": {
+                "hurah/hurah-installer": "*",
+                "novum/innovation-app-core": "*",
+                "php": ">=7.4"
+            },
+            "type": "novum-domain",
+            "extra": {
+                "system_id": "novum.xbox"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "email": []
+                }
+            ],
+            "description": "This is a test",
+            "homepage": "https://docs.demo.novum.nu",
+            "keywords": [
+                "xbod"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "novum/innovation-app-core",
@@ -7370,6 +7740,16 @@
         "novum/api-repository": 20,
         "hurah/util": 20,
         "novum/code-generation": 20,
+        "novum/domain-xbox": 20,
+        "novum/api-xbox": 20,
+        "novum/domain-sega": 20,
+        "novum/api-sega": 20,
+        "novum/domain-nintendo": 20,
+        "novum/api-nintendo": 20,
+        "novum/domain-atari": 20,
+        "novum/api-atari": 20,
+        "novum/domain-snes": 20,
+        "novum/api-snes": 20,
         "phpunit/phpunit": 20
     },
     "prefer-stable": false,

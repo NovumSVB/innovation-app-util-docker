@@ -7,7 +7,7 @@
 # fills in a form via de webinterface that comes with this system.
 
 DATA_DIR="/app/data"
-QUEUE_DIR="$DATA_DIR/queue/system"
+QUEUE_DIR="$DATA_DIR/queue/system/create"
 LOG_DIR="$DATA_DIR/log/system"
 LOG_FILE="$LOG_DIR/create.log"
 
