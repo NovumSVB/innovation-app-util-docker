@@ -17,22 +17,23 @@ RUN DEBIAN_FRONTEND=noninteractive TZ="Europe/Amsterdam" apt-get install -y \
     phing \
     libxml2-dev \
     apache2 \
-    php7.4 \
-    php7.4-zip \
-    php7.4-mysqli \
-    php7.4-soap \
-    php7.4-pdo \
-    php7.4-sockets \
-    php7.4-intl \
-    php7.4-gd \
-    php7.4-mbstring \
-    php7.4-curl \
-    php7.4-simplexml \
-    php7.4-mbstring \
+    php8.0 \
+    php8.0-zip \
+    php8.0-mysql \
+    php8.0-soap \
+    php8.0-common \
+    php8.0-sockets \
+    php8.0-intl \
+    php8.0-gd \
+    php8.0-mbstring \
+    php8.0-curl \
+    php8.0-xml \
+    php8.0-mbstring \
     php-xdebug
 
 WORKDIR /app
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN phpenmod mysqli
 RUN a2enmod rewrite
 RUN a2enmod ssl
 RUN a2enmod env
